@@ -1,0 +1,20 @@
+.search-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.day-weather-wrapper {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 750px) {
+  .day-weather-wrapper {
+    flex-direction: column;
+  }
+}
+
+.auto-complete-field {
+  width: 450px;
+}

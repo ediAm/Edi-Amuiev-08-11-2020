@@ -1,0 +1,37 @@
+.rootCard {
+  width: 750px;
+  cursor: pointer;
+  display: flex;
+  background-color: lightcyan !important;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.rootCard:hover {
+  background-color: lightblue !important;
+}
+
+.rootCard-content {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 22px !important;
+  color: red;
+}
+
+.pos {
+  font-size: 40px !important;
+  margin-left: 15px !important;
+}
+
+.weatherText {
+  font-size: 16px !important;
+}
+
+@media only screen and (max-width: 750px) {
+  .rootCard {
+    width: 100%;
+  }
+}

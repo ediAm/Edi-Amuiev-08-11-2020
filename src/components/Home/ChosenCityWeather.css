@@ -1,0 +1,50 @@
+.curCityWeather {
+  border: 5px solid lightblue;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.faveRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fave-btn {
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  background-color: darkblue;
+  color: white;
+  width: 190px;
+  height: 33px;
+  border: none;
+  outline: none;
+  position: relative;
+}
+
+.cityName {
+  font-size: 60px;
+  color: darkblue;
+  display: flex;
+  justify-content: center;
+}
+
+.metricTemp {
+  margin: 5px 0px;
+  font-size: 40px;
+  color: deepskyblue;
+  display: flex;
+  justify-content: center;
+}
+
+.star-icn {
+  padding-left: 5px;
+  font-size: 35px !important;
+  position: absolute;
+  right: 9px;
+}
+
+.fave {
+  color: yellow;
+}

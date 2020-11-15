@@ -1,0 +1,27 @@
+.rootDay {
+  flex: 0 1 19%;
+  margin-left: 5px;
+  border: 1px solid mediumturquoise;
+  border-radius: 25px !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .rootDay {
+    flex: 1 1 100%;
+    margin-top: 5px;
+  }
+}
+
+/* .bulletDay {
+  display: inline-block;
+  margin: 0 2px;
+  transform: scale(0.8);
+} */
+
+.titleDay {
+  font-size: 25px !important;
+}
+
+.posDay {
+  margin-bottom: 12px !important;
+}
