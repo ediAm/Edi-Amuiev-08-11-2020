@@ -8,6 +8,7 @@ const Home = () => {
   const [chosenCity, setChosenCity] = useState(null);
   const history = useHistory();
 
+  // Check if redirected from favorites - occurres only once on mount (on page load)
   useEffect(() => {
     if (history?.location?.state?.fave) {
       setChosenCity(history.location.state.fave);
@@ -18,6 +19,7 @@ const Home = () => {
       });
     }
   }, []);
+
   return (
     <div>
       <SearchCities setChosenCity={setChosenCity} />

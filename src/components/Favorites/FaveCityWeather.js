@@ -9,7 +9,6 @@ const FaveCityWeather = ({ cityWeather }) => {
   const history = useHistory();
 
   const onFaveCityClicked = () => {
-    debugger;
     history.push({
       pathname: "/home",
       state: {
@@ -21,6 +20,7 @@ const FaveCityWeather = ({ cityWeather }) => {
     });
   };
   const temp = cityWeather.Temperature.Metric;
+
   return (
     <Card className="rootCard" onClick={onFaveCityClicked}>
       <CardContent className="rootCard-content">
